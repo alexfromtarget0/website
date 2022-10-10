@@ -1,0 +1,40 @@
+@font-face {
+    font-family: font;
+    src: url(Uni\ Sans\ Heavy.otf);
+}
+
+.nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: font;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a:active {
+    background-color: #f2f2f2;
+    color: white;
+}
+
+#viewed-page {
+    background-color: #5865F2;
+}
+
+#footer {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
